@@ -29,7 +29,7 @@
                 android:layout_marginTop="20dp">
 
                 <EditText
-                    android:id="@+id/edit_username"
+                    android:id="@+id/reg_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Username"
@@ -43,7 +43,7 @@
                 android:layout_marginTop="20dp">
 
                 <EditText
-                    android:id="@+id/edit_password"
+                    android:id="@+id/reg_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Password"
@@ -68,7 +68,7 @@
                 android:textSize="12sp"/>
 
             <Button
-                android:onClick="registerClick"
+                android:onClick="register"
                 android:layout_marginRight="20dp"
                 android:text="register"
                 android:layout_alignParentRight="true"

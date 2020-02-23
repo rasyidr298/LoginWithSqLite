@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         sqliteHelper = new SqliteHelper(this);
-        username = findViewById(R.id.edit_username);
-        password = findViewById(R.id.edit_password);
+        username = findViewById(R.id.reg_username);
+        password = findViewById(R.id.reg_password);
         remember = findViewById(R.id.checkbox);
         login = findViewById(R.id.btn_login);
 

@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -30,8 +29,8 @@ public class RegisterActivity extends AppCompatActivity {
 
     //this method is used to connect XML views to its Objects
     private void initViews() {
-        editTextUsername = (EditText) findViewById(R.id.edit_username);
-        editTextPassword = (EditText) findViewById(R.id.edit_password);
+        editTextUsername = findViewById(R.id.reg_username);
+        editTextPassword = findViewById(R.id.reg_password);
 
     }
 
@@ -75,7 +74,7 @@ public class RegisterActivity extends AppCompatActivity {
         return valid;
     }
 
-    public void registerClick(View view){
+    public void register(View view){
         if (validate()) {
             String user = editTextUsername.getText().toString();
             String pass = editTextPassword.getText().toString();

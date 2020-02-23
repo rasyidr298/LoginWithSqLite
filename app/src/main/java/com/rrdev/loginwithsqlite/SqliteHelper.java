@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class SqliteHelper extends SQLiteOpenHelper {
 
     //DATABASE NAME
-    public static final String DATABASE_NAME = "loopwiki.com";
+    public static final String DATABASE_NAME = "trial_login";
 
     //DATABASE VERSION
     public static final int DATABASE_VERSION = 1;
